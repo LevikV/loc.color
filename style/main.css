@@ -532,8 +532,9 @@ h3.myh3 {
 }
 
 .tab-content img {
-	width: 290px;
-	height: 260px;
+	max-width: 290px;
+	/*height: 260px;*/
+	height: auto;
 }
 /*** Media Style ***/
 
@@ -825,4 +826,10 @@ h3.myh3 {
 	    position: relative;
 	    padding: 0px 0 40px 0;
 	}
+}
+.my_pic {
+
+}
+.my_pic img {
+
 }
